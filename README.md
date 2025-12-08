@@ -1,7 +1,7 @@
 # Palaeo Data Cube (PDC)
 
 ## Overview
-The Palaeo Data Cube (PDC) provides global maps of the Earth in deep-time (currently of the last 545 million years, in 44 steps). It is inspired by the present-day Earth Observations (EO) Data Cubes, and provides acess to data products in high-resolution (10km by 10km) of the Earth system long-term evolution.
+The Palaeo Data Cube (PDC) provides global maps of the Earth in deep-time (currently of the last 545 million years, in 44 steps). It is inspired by the present-day Earth Observations (EO) Data Cubes, and provides acess to data products in high-resolution of the Earth system long-term evolution.
 
 ![PAN_ages.svg](images%2FPAN_ages.svg)
 ## Data products
@@ -22,11 +22,11 @@ More products from climate simulations will be added in the near future.
 
 Maps are available for every reconstruction mentionned above, share the same projection, resolution and extent. The specifications are the following:
 
-| Property    | Value                                            |
-|-------------|--------------------------------------------------|
-| Projection  | [ESRI:54034](https://epsg.io/54034)              |
-| Resolution  | 10 × 10 km                                       |
-| Extent      | -20037508.34 -6363885.33, 20037508.34 6363885.33 |
+| Property    | Value                                             |
+|-------------|---------------------------------------------------|
+| Projection  | [ESRI:54034](https://epsg.io/54034)               |
+| Resolution  | 10 × 10 km                                        |
+| Extent      | -20037508.34 -6363885.33, 20037508.34, 6363885.33 |
 
 
 ## Architecture
@@ -86,6 +86,6 @@ You can view the full license text in the [LICENSE](./LICENSE).
 ## Funding
 
 We acknowledge financial support from the Swiss National Science Foundation (SNSF) under [Sinergia grant #213539](https://data.snf.ch/grants/grant/213539): _Long-term 
-evolution of the Earth from the base of the mantle to the top of the atmosphere: Understanding the mechanisms leading to ‘greenhouse’ and ‘icehouse’ regimes.
+evolution of the Earth from the base of the mantle to the top of the atmosphere: Understanding the mechanisms leading to ‘greenhouse’ and ‘icehouse’ regimes_.
 
 This project is supported by an Open Research Data (ORD) grant from the University of Geneva
