@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "crustal_thickness_2463",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          20037508.34,
+          -6363885.33
+        ],
+        [
+          20037508.34,
+          6363885.33
+        ],
+        [
+          -20037508.34,
+          6363885.33
+        ],
+        [
+          -20037508.34,
+          -6363885.33
+        ],
+        [
+          20037508.34,
+          -6363885.33
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -20037508.34,
+    -6363885.33,
+    20037508.34,
+    6363885.33
+  ],
+  "properties": {
+    "geological:age_ma": 463,
+    "geological:age_years": 463000000,
+    "proj:code": "EPSG:54034",
+    "proj:shape": [
+      325,
+      1024
+    ],
+    "proj:bbox": [
+      -20037508.34,
+      -6363885.33,
+      20037508.34,
+      6363885.33
+    ],
+    "proj:transform": [
+      39135.76,
+      0.0,
+      -20037508.34,
+      0.0,
+      -39162.37,
+      6363885.33
+    ],
+    "datetime": "2463-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "wms": {
+      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas:crustal_thickness&styles=panalesis_atlas:crustal_thickness&bbox=-20037508.34,-6363885.33,20037508.34,6363885.33&width=1024&height=325&srs=EPSG:54034&format=image/png&TIME=2463",
+      "type": "image/png",
+      "title": "crustal thickness at 463 Ma (WMS)",
+      "roles": [
+        "data",
+        "visual"
+      ]
+    }
+  },
+  "collection": "crustal_thickness"
+}

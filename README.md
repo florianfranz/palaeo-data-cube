@@ -38,8 +38,8 @@ The PDC is based on open source solutions for serving, describing, searching and
 | **Data Server**              | GeoServer    | Serves geospatial data via OGC web map services (WMS)          |
 | **Metadata Catalog (static)**| GeoNetwork   | Stores and publishes ISO/INSPIRE metadata records              |
 | **Metadata Catalog (dynamic)**| STAC         | Provides dynamic, API-based metadata for spatiotemporal assets |
+| **STAC Browser**             | In development | Web-based interface for browsing and searching STAC catalog   |
 | **Data Archive**             | Zenodo       | Long-term storage, DOI assignement, version management         |
-
 
 ## Data Access
 
@@ -59,8 +59,9 @@ The layers are loaded as ImageMosaics, with time enabled. In order to accomodate
 
 The geological age (in Myr) is added to the year 2000 in the date property. For instance:
 
-`2250-01-01T00:00:00.000Z` will retrieve the map at -250 Myr (Permo-Triassic boundary)
-
+- `000 Myr (present-day)` : `TIME=2000-01-01T00:00:00.000Z`
+- `-250 Myr` : `TIME=2250-01-01T00:00:00.000Z`
+- `-545 Myr` : `TIME=2545-01-01T00:00:00.00`
 
 **Zenodo:**
 1. Palaeogeography:  Franziskakis, F., Vérard, C., Castelltort, S., & Giuliani, G. (2025). Global Quantified Palaeogeographic Maps and Associated Sea-level Variations for the Phanerozoic using the PANALESIS Model [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15396265

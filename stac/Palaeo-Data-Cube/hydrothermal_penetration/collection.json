@@ -1,0 +1,264 @@
+{
+  "type": "Collection",
+  "id": "hydrothermal_penetration",
+  "stac_version": "1.1.0",
+  "description": "Hydrothermal penetration reconstructions from GeoServer using image mosaic layers.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2000/hydrothermal_penetration_2000.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2006/hydrothermal_penetration_2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2011/hydrothermal_penetration_2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2015/hydrothermal_penetration_2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2020/hydrothermal_penetration_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2033/hydrothermal_penetration_2033.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2040/hydrothermal_penetration_2040.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2048/hydrothermal_penetration_2048.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2056/hydrothermal_penetration_2056.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2068/hydrothermal_penetration_2068.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2084/hydrothermal_penetration_2084.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2094/hydrothermal_penetration_2094.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2100/hydrothermal_penetration_2100.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2113/hydrothermal_penetration_2113.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2120/hydrothermal_penetration_2120.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2133/hydrothermal_penetration_2133.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2140/hydrothermal_penetration_2140.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2154/hydrothermal_penetration_2154.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2165/hydrothermal_penetration_2165.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2180/hydrothermal_penetration_2180.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2200/hydrothermal_penetration_2200.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2210/hydrothermal_penetration_2210.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2220/hydrothermal_penetration_2220.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2230/hydrothermal_penetration_2230.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2240/hydrothermal_penetration_2240.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2250/hydrothermal_penetration_2250.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2270/hydrothermal_penetration_2270.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2290/hydrothermal_penetration_2290.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2300/hydrothermal_penetration_2300.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2315/hydrothermal_penetration_2315.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2331/hydrothermal_penetration_2331.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2350/hydrothermal_penetration_2350.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2370/hydrothermal_penetration_2370.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2383/hydrothermal_penetration_2383.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2393/hydrothermal_penetration_2393.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2408/hydrothermal_penetration_2408.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2420/hydrothermal_penetration_2420.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2444/hydrothermal_penetration_2444.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2463/hydrothermal_penetration_2463.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2475/hydrothermal_penetration_2475.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2489/hydrothermal_penetration_2489.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2500/hydrothermal_penetration_2500.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2518/hydrothermal_penetration_2518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2535/hydrothermal_penetration_2535.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./hydrothermal_penetration_2545/hydrothermal_penetration_2545.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -20037508.34,
+          -6363885.33,
+          20037508.34,
+          6363885.33
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          "2545-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

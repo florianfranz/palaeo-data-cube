@@ -1,0 +1,264 @@
+{
+  "type": "Collection",
+  "id": "seafloor_ages",
+  "stac_version": "1.1.0",
+  "description": "Seafloor ages reconstructions from GeoServer using image mosaic layers.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2000/seafloor_ages_2000.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2006/seafloor_ages_2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2011/seafloor_ages_2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2015/seafloor_ages_2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2020/seafloor_ages_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2033/seafloor_ages_2033.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2040/seafloor_ages_2040.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2048/seafloor_ages_2048.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2056/seafloor_ages_2056.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2068/seafloor_ages_2068.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2084/seafloor_ages_2084.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2094/seafloor_ages_2094.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2100/seafloor_ages_2100.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2113/seafloor_ages_2113.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2120/seafloor_ages_2120.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2133/seafloor_ages_2133.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2140/seafloor_ages_2140.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2154/seafloor_ages_2154.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2165/seafloor_ages_2165.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2180/seafloor_ages_2180.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2200/seafloor_ages_2200.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2210/seafloor_ages_2210.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2220/seafloor_ages_2220.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2230/seafloor_ages_2230.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2240/seafloor_ages_2240.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2250/seafloor_ages_2250.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2270/seafloor_ages_2270.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2290/seafloor_ages_2290.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2300/seafloor_ages_2300.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2315/seafloor_ages_2315.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2331/seafloor_ages_2331.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2350/seafloor_ages_2350.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2370/seafloor_ages_2370.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2383/seafloor_ages_2383.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2393/seafloor_ages_2393.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2408/seafloor_ages_2408.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2420/seafloor_ages_2420.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2444/seafloor_ages_2444.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2463/seafloor_ages_2463.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2475/seafloor_ages_2475.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2489/seafloor_ages_2489.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2500/seafloor_ages_2500.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2518/seafloor_ages_2518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2535/seafloor_ages_2535.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./seafloor_ages_2545/seafloor_ages_2545.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -20037508.34,
+          -6363885.33,
+          20037508.34,
+          6363885.33
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          "2545-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

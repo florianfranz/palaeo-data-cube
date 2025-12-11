@@ -1,0 +1,264 @@
+{
+  "type": "Collection",
+  "id": "lithospheric_thickness",
+  "stac_version": "1.1.0",
+  "description": "Lithospheric thickness reconstructions from GeoServer using image mosaic layers.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2000/lithospheric_thickness_2000.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2006/lithospheric_thickness_2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2011/lithospheric_thickness_2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2015/lithospheric_thickness_2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2020/lithospheric_thickness_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2033/lithospheric_thickness_2033.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2040/lithospheric_thickness_2040.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2048/lithospheric_thickness_2048.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2056/lithospheric_thickness_2056.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2068/lithospheric_thickness_2068.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2084/lithospheric_thickness_2084.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2094/lithospheric_thickness_2094.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2100/lithospheric_thickness_2100.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2113/lithospheric_thickness_2113.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2120/lithospheric_thickness_2120.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2133/lithospheric_thickness_2133.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2140/lithospheric_thickness_2140.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2154/lithospheric_thickness_2154.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2165/lithospheric_thickness_2165.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2180/lithospheric_thickness_2180.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2200/lithospheric_thickness_2200.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2210/lithospheric_thickness_2210.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2220/lithospheric_thickness_2220.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2230/lithospheric_thickness_2230.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2240/lithospheric_thickness_2240.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2250/lithospheric_thickness_2250.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2270/lithospheric_thickness_2270.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2290/lithospheric_thickness_2290.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2300/lithospheric_thickness_2300.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2315/lithospheric_thickness_2315.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2331/lithospheric_thickness_2331.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2350/lithospheric_thickness_2350.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2370/lithospheric_thickness_2370.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2383/lithospheric_thickness_2383.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2393/lithospheric_thickness_2393.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2408/lithospheric_thickness_2408.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2420/lithospheric_thickness_2420.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2444/lithospheric_thickness_2444.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2463/lithospheric_thickness_2463.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2475/lithospheric_thickness_2475.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2489/lithospheric_thickness_2489.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2500/lithospheric_thickness_2500.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2518/lithospheric_thickness_2518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2535/lithospheric_thickness_2535.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithospheric_thickness_2545/lithospheric_thickness_2545.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -20037508.34,
+          -6363885.33,
+          20037508.34,
+          6363885.33
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          "2545-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

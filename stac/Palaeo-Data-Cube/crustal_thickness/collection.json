@@ -1,0 +1,264 @@
+{
+  "type": "Collection",
+  "id": "crustal_thickness",
+  "stac_version": "1.1.0",
+  "description": "Crustal thickness reconstructions from GeoServer using image mosaic layers.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2000/crustal_thickness_2000.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2006/crustal_thickness_2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2011/crustal_thickness_2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2015/crustal_thickness_2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2020/crustal_thickness_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2033/crustal_thickness_2033.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2040/crustal_thickness_2040.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2048/crustal_thickness_2048.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2056/crustal_thickness_2056.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2068/crustal_thickness_2068.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2084/crustal_thickness_2084.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2094/crustal_thickness_2094.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2100/crustal_thickness_2100.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2113/crustal_thickness_2113.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2120/crustal_thickness_2120.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2133/crustal_thickness_2133.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2140/crustal_thickness_2140.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2154/crustal_thickness_2154.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2165/crustal_thickness_2165.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2180/crustal_thickness_2180.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2200/crustal_thickness_2200.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2210/crustal_thickness_2210.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2220/crustal_thickness_2220.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2230/crustal_thickness_2230.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2240/crustal_thickness_2240.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2250/crustal_thickness_2250.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2270/crustal_thickness_2270.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2290/crustal_thickness_2290.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2300/crustal_thickness_2300.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2315/crustal_thickness_2315.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2331/crustal_thickness_2331.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2350/crustal_thickness_2350.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2370/crustal_thickness_2370.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2383/crustal_thickness_2383.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2393/crustal_thickness_2393.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2408/crustal_thickness_2408.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2420/crustal_thickness_2420.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2444/crustal_thickness_2444.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2463/crustal_thickness_2463.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2475/crustal_thickness_2475.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2489/crustal_thickness_2489.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2500/crustal_thickness_2500.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2518/crustal_thickness_2518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2535/crustal_thickness_2535.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./crustal_thickness_2545/crustal_thickness_2545.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -20037508.34,
+          -6363885.33,
+          20037508.34,
+          6363885.33
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          "2545-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

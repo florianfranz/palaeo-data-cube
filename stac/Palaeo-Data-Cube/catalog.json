@@ -1,0 +1,48 @@
+{
+  "type": "Catalog",
+  "id": "palaeo-data-cube",
+  "stac_version": "1.1.0",
+  "description": "STAC Catalog for PANALESIS Atlas products, shared through the Palaeo Data Cube",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./palaeogeography/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./seafloor_ages/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./crustal_thickness/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./lithospheric_thickness/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./hydrothermal_penetration/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./flow_direction/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./flow_accumulation/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

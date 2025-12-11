@@ -1,0 +1,264 @@
+{
+  "type": "Collection",
+  "id": "palaeogeography",
+  "stac_version": "1.1.0",
+  "description": "Palaeogeographic reconstructions from GeoServer using image mosaic layers.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2000/palaeogeography_2000.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2006/palaeogeography_2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2011/palaeogeography_2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2015/palaeogeography_2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2020/palaeogeography_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2033/palaeogeography_2033.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2040/palaeogeography_2040.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2048/palaeogeography_2048.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2056/palaeogeography_2056.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2068/palaeogeography_2068.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2084/palaeogeography_2084.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2094/palaeogeography_2094.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2100/palaeogeography_2100.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2113/palaeogeography_2113.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2120/palaeogeography_2120.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2133/palaeogeography_2133.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2140/palaeogeography_2140.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2154/palaeogeography_2154.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2165/palaeogeography_2165.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2180/palaeogeography_2180.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2200/palaeogeography_2200.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2210/palaeogeography_2210.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2220/palaeogeography_2220.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2230/palaeogeography_2230.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2240/palaeogeography_2240.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2250/palaeogeography_2250.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2270/palaeogeography_2270.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2290/palaeogeography_2290.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2300/palaeogeography_2300.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2315/palaeogeography_2315.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2331/palaeogeography_2331.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2350/palaeogeography_2350.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2370/palaeogeography_2370.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2383/palaeogeography_2383.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2393/palaeogeography_2393.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2408/palaeogeography_2408.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2420/palaeogeography_2420.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2444/palaeogeography_2444.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2463/palaeogeography_2463.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2475/palaeogeography_2475.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2489/palaeogeography_2489.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2500/palaeogeography_2500.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2518/palaeogeography_2518.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2535/palaeogeography_2535.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./palaeogeography_2545/palaeogeography_2545.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -20037508.34,
+          -6363885.33,
+          20037508.34,
+          6363885.33
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          "2545-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}
