@@ -36,12 +36,12 @@
     },
     {
       "rel": "child",
-      "href": "./flow_direction/collection.json",
+      "href": "./flow_dir/collection.json",
       "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./flow_accumulation/collection.json",
+      "href": "./flow_acc/collection.json",
       "type": "application/json"
     }
   ]
