@@ -69,7 +69,11 @@ The geological age (in Myr) is added to the year 2000 in the date property. For 
 Currently, only palaeogeographic maps are stored on Zenodo. Other products will soon be added.
 1. Palaeogeography:  Franziskakis, F., Vérard, C., Castelltort, S., & Giuliani, G. (2025). Global Quantified Palaeogeographic Maps and Associated Sea-level Variations for the Phanerozoic using the PANALESIS Model [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15396265
 
+## Metadata Catalog
 
+Every product is documented with standard metadata (ISO 19115). The catalog is supported by GeoNetwork and can be accessed [here](https://geonetwork.panalesis.org/geonetwork)
+
+A SpatioTemporal Assets Catalog (STAC) listing every item available for every product (one collection per product) is available [in the stac folder](./stac)
 ## References
 
 **PANALESIS Plate Tectonic Model**:
