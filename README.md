@@ -18,8 +18,7 @@ The PDC provides access to global maps depicting various aspects of the Earth ov
 
 More products from climate simulations will be added in the near future.
 
-![PDC.png](images%2FPDC.png)
-
+![Full_PDC.png](images%2FFull_PDC.png)
 Maps are available for every reconstruction mentionned above, share the same projection, resolution and extent. The specifications are the following:
 
 | Property    | Value                                             |
@@ -45,15 +44,17 @@ The PDC is based on open source solutions for serving, describing, searching and
 
 The PDC products may be accessed via WMS (simpler) or through their archived version in Zenodo.
 
-**WMS Endpoint:** `https://geoserver.panalesis.org/geoserver/`
+**WMS Endpoint (Recommended):** `https://geoserver.panalesis.org/geoserver/`
 
-| Layer Name | Workspace | Full Layer Identifier |
-|------------|-----------|----------------------|
-| Crustal Thickness | panalesis_atlas | `panalesis_atlas:crustal_thickness` |
+| Layer Name               | Workspace | Full Layer Identifier                      |
+|--------------------------|-----------|--------------------------------------------|
+| Crustal Thickness        | panalesis_atlas | `panalesis_atlas:crustal_thickness`        |
 | Hydrothermal Penetration | panalesis_atlas | `panalesis_atlas:hydrothermal_penetration` |
-| Lithospheric Thickness | panalesis_atlas | `panalesis_atlas:lithospheric_thickness` |
-| Palaeogeography | panalesis_atlas | `panalesis_atlas:palaeogeography` |
-| Seafloor Ages | panalesis_atlas | `panalesis_atlas:seafloor_ages` |
+| Lithospheric Thickness   | panalesis_atlas | `panalesis_atlas:lithospheric_thickness`   |
+| Palaeogeography          | panalesis_atlas | `panalesis_atlas:palaeogeography`          |
+| Seafloor Ages            | panalesis_atlas | `panalesis_atlas:seafloor_ages`            |
+| Flow Direction           | panalesis_atlas | `panalesis_atlas:flow_dir`                 |
+| Flow Accumulation        | panalesis_atlas | `panalesis_atlas:flow_acc`                 |
 
 The layers are loaded as ImageMosaics, with time enabled. In order to accomodate the unusual geological times scales, we have tweaked the time dimensions to be compatible with ISO 8601 format. 
 
@@ -63,8 +64,11 @@ The geological age (in Myr) is added to the year 2000 in the date property. For 
 - `-250 Myr` : `TIME=2250-01-01T00:00:00.000Z`
 - `-545 Myr` : `TIME=2545-01-01T00:00:00.00`
 
-**Zenodo:**
+**Zenodo (Alternative):**
+
+Currently, only palaeogeographic maps are stored on Zenodo. Other products will soon be added.
 1. Palaeogeography:  Franziskakis, F., Vérard, C., Castelltort, S., & Giuliani, G. (2025). Global Quantified Palaeogeographic Maps and Associated Sea-level Variations for the Phanerozoic using the PANALESIS Model [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15396265
+
 
 ## References
 
