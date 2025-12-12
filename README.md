@@ -44,7 +44,7 @@ The PDC is based on open source solutions for serving, describing, searching and
 
 The PDC products may be accessed via WMS (simpler) or through their archived version in Zenodo.
 
-**WMS Endpoint (Recommended):** `https://geoserver.panalesis.org/geoserver/`
+**WMS Endpoint (Recommended):** `https://geoserver.panalesis.org/geoserver/wms`
 
 | Layer Name               | Workspace | Full Layer Identifier                      |
 |--------------------------|-----------|--------------------------------------------|
