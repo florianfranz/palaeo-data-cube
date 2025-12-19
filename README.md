@@ -115,4 +115,4 @@ The data is licensed under a CC-BY 4.0 license. More information will be provide
 We acknowledge financial support from the Swiss National Science Foundation (SNSF) under [Sinergia grant #213539](https://data.snf.ch/grants/grant/213539): _Long-term 
 evolution of the Earth from the base of the mantle to the top of the atmosphere: Understanding the mechanisms leading to ‘greenhouse’ and ‘icehouse’ regimes_.
 
-This project is supported by an Open Research Data (ORD) grant from the University of Geneva
+This project is supported by an Open Research Data (ORD) grant from the University of Geneva (UNIGE). More information on the [UNIGE Research Data webpage](https://www.unige.ch/researchdata/en/presentation/news/call-ord-2025-funded-projects)
