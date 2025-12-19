@@ -108,6 +108,8 @@ enviroSPACE group, Institute for Environmental Sciences, University of Geneva
 This repository is licensed under the MIT license. 
 You can view the full license text in the [LICENSE](./LICENSE).
 
+The data is licensed under a CC-BY 4.0 license. More information will be provided soon once data is fully archived.
+
 ## Funding
 
 We acknowledge financial support from the Swiss National Science Foundation (SNSF) under [Sinergia grant #213539](https://data.snf.ch/grants/grant/213539): _Long-term 
