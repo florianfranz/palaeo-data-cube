@@ -171,6 +171,11 @@
     },
     {
       "rel": "item",
+      "href": "./flow_dir_2370/flow_dir_2370.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./flow_dir_2383/flow_dir_2383.json",
       "type": "application/geo+json"
     },
@@ -239,21 +244,27 @@
     "spatial": {
       "bbox": [
         [
-          -20037508.34,
-          -6363885.33,
-          20037508.34,
-          6363885.33
+          -180.0,
+          -85.06,
+          180.0,
+          85.06
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2000-01-01T00:00:00Z",
-          "2545-01-01T00:00:00Z"
+          null,
+          null
         ]
       ]
     }
   },
-  "license": "CC-BY-4.0"
+  "license": "CC-BY-4.0",
+  "summaries": {
+    "geological:age_ma": {
+      "minimum": 0,
+      "maximum": 545
+    }
+  }
 }

@@ -4,7 +4,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
   ],
-  "id": "seafloor_ages_2048",
+  "id": "flow_dir_2370",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -39,11 +39,11 @@
     85.06
   ],
   "properties": {
-    "geological:age_ma": 48,
-    "geological:age_years": 48000000,
-    "geoserver:time_value": "2048-01-01T00:00:00Z",
-    "start_datetime": "2048-01-01T00:00:00Z",
-    "end_datetime": "2048-01-01T00:00:00Z",
+    "geological:age_ma": 370,
+    "geological:age_years": 370000000,
+    "geoserver:time_value": "2370-01-01T00:00:00Z",
+    "start_datetime": "2370-01-01T00:00:00Z",
+    "end_datetime": "2370-01-01T00:00:00Z",
     "proj:code": "EPSG:54034",
     "proj:shape": [
       325,
@@ -84,14 +84,14 @@
   ],
   "assets": {
     "wms": {
-      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas:seafloor_ages&styles=panalesis_atlas:seafloor_ages&bbox=-20037508.34,-6363885.33,20037508.34,6363885.33&width=1024&height=325&srs=EPSG:54034&format=image/png&TIME=2048",
+      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas:flow_dir&styles=panalesis_atlas:flow_dir&bbox=-20037508.34,-6363885.33,20037508.34,6363885.33&width=1024&height=325&srs=EPSG:54034&format=image/png&TIME=2370",
       "type": "image/png",
-      "title": "Seafloor age at 48 Ma (WMS)",
+      "title": "Flow direction at 370 Ma (WMS)",
       "roles": [
         "data",
         "visual"
       ]
     }
   },
-  "collection": "seafloor_ages"
+  "collection": "flow_dir"
 }
