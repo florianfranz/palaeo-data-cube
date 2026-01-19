@@ -1,7 +1,16 @@
-# Palaeo Data Cube (PDC)
+<table>
+  <tr>
+    <td style="width: 40%; text-align: center;">
+      <img src="images/PDC_logo.png" alt="PDC" width="400"/>
+    </td>
+    <td style="width: 60%;">
+      <h1>The Palaeo Data Cube: a Digital Earth of the Past Inspired by Present-day Big Earth Observations Data Practices </h1>
+    </td>
+  </tr>
+</table>
 
 ## Overview
-The Palaeo Data Cube (PDC) provides global maps of the Earth in deep-time (currently of the last 545 million years, in 44 steps). It is inspired by the present-day Earth Observations (EO) Data Cubes, and provides acess to data products in high-resolution of the Earth system long-term evolution.
+The Palaeo Data Cube (PDC) provides global maps of the Earth in deep-time (currently of the last 545 million years, in 45 steps). It is inspired by the present-day Earth Observations (EO) Data Cubes, and provides access to data products in high-resolution of the Earth system long-term evolution.
 
 ![PAN_ages.svg](images%2FPAN_ages.svg)
 ## Data products
