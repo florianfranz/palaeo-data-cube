@@ -1,4 +1,4 @@
-Welcome to Palaeo Data Cube's documentation!
+Palaeo Data Cube
 =============================================
 
 .. toctree::
@@ -6,8 +6,8 @@ Welcome to Palaeo Data Cube's documentation!
    :caption: Contents:
 
    introduction
+   access
    usage
-   demo
    references
 
 Indices and tables
