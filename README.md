@@ -28,13 +28,24 @@ The PDC provides access to global maps depicting various aspects of the Earth ov
 More products from climate simulations will be added in the near future.
 
 ![Full_PDC.png](images%2FFull_PDC.png)
-Maps are available for every reconstruction mentionned above, share the same projection, resolution and extent. The specifications are the following:
+Maps are available for every reconstruction mentionned above, share the same projection, resolution and extent. 
+The specifications are the following:
+
+### Equal area projection (recommended for area or volume calculations)
 
 | Property    | Value                                             |
 |-------------|---------------------------------------------------|
 | Projection  | [ESRI:54034](https://epsg.io/54034)               |
 | Resolution  | 10 × 10 km                                        |
 | Extent      | -20037508.34 -6363885.33, 20037508.34, 6363885.33 |
+
+### Latitude/Longitude
+
+| Property    | Value                             |
+|-------------|-----------------------------------|
+| Projection  | [EPSG:4326](https://epsg.io/4326) |
+| Resolution  | 0.1 × 0.1 km                      |
+| Extent      | -180 -90, 180, 90                 |
 
 
 ## Architecture
@@ -53,17 +64,26 @@ The PDC is based on open source solutions for serving, describing, searching and
 
 The PDC products may be accessed via WMS (simpler) or through their archived version in Zenodo.
 
-**WMS Endpoint (Recommended):** `https://geoserver.panalesis.org/geoserver/wms`
+**Web Services Endpoint (Recommended):** `https://geoserver.panalesis.org/geoserver/`
 
-| Layer Name               | Workspace | Full Layer Identifier                      |
-|--------------------------|-----------|--------------------------------------------|
-| Crustal Thickness        | panalesis_atlas | `panalesis_atlas:crustal_thickness`        |
-| Hydrothermal Penetration | panalesis_atlas | `panalesis_atlas:hydrothermal_penetration` |
-| Lithospheric Thickness   | panalesis_atlas | `panalesis_atlas:lithospheric_thickness`   |
-| Palaeogeography          | panalesis_atlas | `panalesis_atlas:palaeogeography`          |
-| Seafloor Ages            | panalesis_atlas | `panalesis_atlas:seafloor_ages`            |
-| Flow Direction           | panalesis_atlas | `panalesis_atlas:flow_dir`                 |
-| Flow Accumulation        | panalesis_atlas | `panalesis_atlas:flow_acc`                 |
+
+| Layer Name               | Workspace                 | Full Layer Identifier                                     | CRS        |
+|--------------------------|---------------------------|-----------------------------------------------------------|------------|
+| **Crustal Thickness**    | panalesis_atlas           | `panalesis_atlas:crustal_thickness`                       | ESRI:54034 |
+|                          | panalesis_atlas_epsg_4326 | `panalesis_atlas_epsg_4326:crustal_thickness_4326`        | EPSG:4326  |
+| **Hydrothermal Penetration** | panalesis_atlas       | `panalesis_atlas:hydrothermal_penetration`                | ESRI:54034 |
+|                          | panalesis_atlas_epsg_4326 | `panalesis_atlas_epsg_4326:hydrothermal_penetration_4326` | EPSG:4326  |
+| **Lithospheric Thickness** | panalesis_atlas         | `panalesis_atlas:lithospheric_thickness`                  | ESRI:54034 |
+|                          | panalesis_atlas_epsg_4326 | `panalesis_atlas_epsg_4326:lithospheric_thickness_4326`   | EPSG:4326  |
+| **Palaeogeography**      | panalesis_atlas           | `panalesis_atlas:palaeogeography`                         | ESRI:54034 |
+|                          | panalesis_atlas_epsg_4326 | `panalesis_atlas_epsg_4326:palaeogeography_4326`          | EPSG:4326  |
+| **Seafloor Ages**        | panalesis_atlas           | `panalesis_atlas:seafloor_ages`                           | ESRI:54034 |
+|                          | panalesis_atlas_epsg_4326 | `panalesis_atlas_epsg_4326:seafloor_ages_4326`            | EPSG:4326  |
+| **Flow Direction**       | panalesis_atlas           | `panalesis_atlas:flow_dir`                                | ESRI:54034 |
+|                          | panalesis_atlas_epsg_4326 | `panalesis_atlas_epsg_4326:flow_dir_4326`                 | EPSG:4326  |
+| **Flow Accumulation**    | panalesis_atlas           | `panalesis_atlas:flow_acc`                                | ESRI:54034 |
+|                          | panalesis_atlas_epsg_4326 | `panalesis_atlas_epsg_4326:flow_acc_4326`                 | EPSG:4326  |
+
 
 The layers are loaded as ImageMosaics, with time enabled. In order to accomodate the unusual geological times scales, we have tweaked the time dimensions to be compatible with ISO 8601 format. 
 
@@ -75,8 +95,8 @@ The geological age (in Myr) is added to the year 2000 in the date property. For 
 
 **Zenodo (Alternative):**
 
-Currently, only palaeogeographic maps are stored on Zenodo. Other products will soon be added.
 1. Palaeogeography:  Franziskakis, F., Vérard, C., Castelltort, S., & Giuliani, G. (2025). Global Quantified Palaeogeographic Maps and Associated Sea-level Variations for the Phanerozoic using the PANALESIS Model [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15396265
+2. PANALESIS Atlas (palaeogeography, seafloor ages, crustal thickness, lithospheric thickness, air surface temperature, precipitation): Franziskakis, F., Werner, N., Vérard, C., Castelltort, S., & Giuliani, G. (2026). A Phanerozoic Atlas of Earth's Atmosphere, Surface, and Interior Derived from the PANALESIS Plate Tectonic Model (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19134591
 
 ## Metadata Catalog
 
@@ -104,13 +124,19 @@ A SpatioTemporal Assets Catalog (STAC) listing every item available for every pr
 
 **Florian Franziskakis**  
 *florian.franziskakis@unige.ch*  
-enviroSPACE group, Institute for Environmental Sciences, University of Geneva
+enviroSPACE & Living Earth Lab, Institute for Environmental Sciences, University of Geneva
 
 **Christian Vérard**  
 Earth Surface Dynamics group, Department of Earth Sciences, University of Geneva
 
+**Jean-Philippe Richard**
+UNEP/GRID - Geneva, Institute for Environmental Sciences, University of Geneva
+
+**Sébastien Castelltort**  
+Earth Surface Dynamics group, Department of Earth Sciences, University of Geneva
+
 **Grégory Giuliani**  
-enviroSPACE group, Institute for Environmental Sciences, University of Geneva
+enviroSPACE & Living Earth Lab, Institute for Environmental Sciences, University of Geneva
 
 ## License
 
