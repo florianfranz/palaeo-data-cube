@@ -32,10 +32,13 @@ Layers are available for:
    :align: center
 
 
-Maps are available for every reconstruction mentioned above, share the same projection, resolution and extent. The specifications are the following:
+Maps are available for every reconstruction mentioned above, share the same projection, resolution and extent.
+The specifications are the following:
+
+Equal area projection (recommended for area or volume calculations)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
-   :widths: 30 70
    :header-rows: 1
 
    * - Property
@@ -46,6 +49,21 @@ Maps are available for every reconstruction mentioned above, share the same proj
      - 10 × 10 km
    * - Extent
      - -20037508.34 -6363885.33, 20037508.34, 6363885.33
+
+Latitude/Longitude
+~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :header-rows: 1
+
+   * - Property
+     - Value
+   * - Projection
+     - `EPSG:4326 <https://epsg.io/4326>`_
+   * - Resolution
+     - 0.1 × 0.1 km
+   * - Extent
+     - -180 -90, 180, 90
 
 
 Architecture

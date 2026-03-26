@@ -129,7 +129,7 @@ enviroSPACE & Living Earth Lab, Institute for Environmental Sciences, University
 **Christian Vérard**  
 Earth Surface Dynamics group, Department of Earth Sciences, University of Geneva
 
-**Jean-Philippe Richard**
+**Jean-Philippe Richard** 
 UNEP/GRID - Geneva, Institute for Environmental Sciences, University of Geneva
 
 **Sébastien Castelltort**  
