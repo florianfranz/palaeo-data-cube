@@ -62,10 +62,10 @@
   ],
   "assets": {
     "wms_54034": {
-      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas:crustal_thickness&styles=panalesis_atlas:crustal_thickness&bbox=-20037508.34,-6363885.33,20037508.34,6363885.33&width=4008&height=1273&srs=ESRI:54034&format=image/png&TIME=2331",
+      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas:crustal_thickness&styles=panalesis_atlas:crustal_thickness&bbox=-20037508.34,-6363885.33,20037508.34,6363885.33&width=4008&height=1273&srs=EPSG:54034&format=image/png&TIME=2331",
       "type": "image/png",
-      "title": "Crustal thickness at 331 Ma (ESRI:54034)",
-      "proj:code": "ESRI:54034",
+      "title": "Crustal thickness at 331 Ma (EPSG:54034)",
+      "proj:code": "EPSG:54034",
       "proj:shape": [
         1273,
         4008
@@ -90,7 +90,7 @@
       ]
     },
     "wms_4326": {
-      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas_epsg_4326/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas_epsg_4326:crustal_thickness_4326&styles=panalesis_atlas_epsg_4326:crustal_thickness_4326&bbox=-180.0,-90.0,180.0,90.0&width=3600&height=1800&srs=EPSG:4326&format=image/png&TIME=2331",
+      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas_epsg_4326/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas_epsg_4326:crustal_thickness_4326&styles=panalesis_atlas_epsg:crustal_thickness&bbox=-180.0,-90.0,180.0,90.0&width=3600&height=1800&srs=EPSG:4326&format=image/png&TIME=2331",
       "type": "image/png",
       "title": "Crustal thickness at 331 Ma (EPSG:4326)",
       "proj:code": "EPSG:4326",
