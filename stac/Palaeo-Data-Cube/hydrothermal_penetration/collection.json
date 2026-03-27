@@ -11,227 +11,227 @@
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2000/hydrothermal_penetration_2000.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_0ma/hydrothermal_penetration_0ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2006/hydrothermal_penetration_2006.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_6ma/hydrothermal_penetration_6ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2011/hydrothermal_penetration_2011.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_11ma/hydrothermal_penetration_11ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2015/hydrothermal_penetration_2015.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_15ma/hydrothermal_penetration_15ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2020/hydrothermal_penetration_2020.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_20ma/hydrothermal_penetration_20ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2033/hydrothermal_penetration_2033.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_33ma/hydrothermal_penetration_33ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2040/hydrothermal_penetration_2040.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_40ma/hydrothermal_penetration_40ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2048/hydrothermal_penetration_2048.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_48ma/hydrothermal_penetration_48ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2056/hydrothermal_penetration_2056.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_56ma/hydrothermal_penetration_56ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2068/hydrothermal_penetration_2068.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_68ma/hydrothermal_penetration_68ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2084/hydrothermal_penetration_2084.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_84ma/hydrothermal_penetration_84ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2094/hydrothermal_penetration_2094.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_94ma/hydrothermal_penetration_94ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2100/hydrothermal_penetration_2100.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_100ma/hydrothermal_penetration_100ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2113/hydrothermal_penetration_2113.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_113ma/hydrothermal_penetration_113ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2120/hydrothermal_penetration_2120.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_120ma/hydrothermal_penetration_120ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2133/hydrothermal_penetration_2133.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_133ma/hydrothermal_penetration_133ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2140/hydrothermal_penetration_2140.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_140ma/hydrothermal_penetration_140ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2154/hydrothermal_penetration_2154.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_154ma/hydrothermal_penetration_154ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2165/hydrothermal_penetration_2165.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_165ma/hydrothermal_penetration_165ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2180/hydrothermal_penetration_2180.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_180ma/hydrothermal_penetration_180ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2200/hydrothermal_penetration_2200.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_200ma/hydrothermal_penetration_200ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2210/hydrothermal_penetration_2210.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_210ma/hydrothermal_penetration_210ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2220/hydrothermal_penetration_2220.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_220ma/hydrothermal_penetration_220ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2230/hydrothermal_penetration_2230.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_230ma/hydrothermal_penetration_230ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2240/hydrothermal_penetration_2240.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_240ma/hydrothermal_penetration_240ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2250/hydrothermal_penetration_2250.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_250ma/hydrothermal_penetration_250ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2270/hydrothermal_penetration_2270.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_270ma/hydrothermal_penetration_270ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2290/hydrothermal_penetration_2290.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_290ma/hydrothermal_penetration_290ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2300/hydrothermal_penetration_2300.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_300ma/hydrothermal_penetration_300ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2315/hydrothermal_penetration_2315.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_315ma/hydrothermal_penetration_315ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2331/hydrothermal_penetration_2331.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_331ma/hydrothermal_penetration_331ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2350/hydrothermal_penetration_2350.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_350ma/hydrothermal_penetration_350ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2370/hydrothermal_penetration_2370.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_370ma/hydrothermal_penetration_370ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2383/hydrothermal_penetration_2383.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_383ma/hydrothermal_penetration_383ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2393/hydrothermal_penetration_2393.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_393ma/hydrothermal_penetration_393ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2408/hydrothermal_penetration_2408.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_408ma/hydrothermal_penetration_408ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2420/hydrothermal_penetration_2420.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_420ma/hydrothermal_penetration_420ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2444/hydrothermal_penetration_2444.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_444ma/hydrothermal_penetration_444ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2463/hydrothermal_penetration_2463.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_463ma/hydrothermal_penetration_463ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2475/hydrothermal_penetration_2475.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_475ma/hydrothermal_penetration_475ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2489/hydrothermal_penetration_2489.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_489ma/hydrothermal_penetration_489ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2500/hydrothermal_penetration_2500.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_500ma/hydrothermal_penetration_500ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2518/hydrothermal_penetration_2518.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_518ma/hydrothermal_penetration_518ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2535/hydrothermal_penetration_2535.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_535ma/hydrothermal_penetration_535ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_2545/hydrothermal_penetration_2545.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/hydrothermal_penetration_545ma/hydrothermal_penetration_545ma.json",
       "type": "application/geo+json"
     },
     {
@@ -245,9 +245,9 @@
       "bbox": [
         [
           -180.0,
-          -85.06,
+          -90.0,
           180.0,
-          85.06
+          90.0
         ]
       ]
     },

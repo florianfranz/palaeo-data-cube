@@ -11,227 +11,227 @@
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2000/palaeogeography_2000.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_0ma/palaeogeography_0ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2006/palaeogeography_2006.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_6ma/palaeogeography_6ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2011/palaeogeography_2011.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_11ma/palaeogeography_11ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2015/palaeogeography_2015.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_15ma/palaeogeography_15ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2020/palaeogeography_2020.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_20ma/palaeogeography_20ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2033/palaeogeography_2033.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_33ma/palaeogeography_33ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2040/palaeogeography_2040.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_40ma/palaeogeography_40ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2048/palaeogeography_2048.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_48ma/palaeogeography_48ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2056/palaeogeography_2056.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_56ma/palaeogeography_56ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2068/palaeogeography_2068.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_68ma/palaeogeography_68ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2084/palaeogeography_2084.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_84ma/palaeogeography_84ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2094/palaeogeography_2094.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_94ma/palaeogeography_94ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2100/palaeogeography_2100.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_100ma/palaeogeography_100ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2113/palaeogeography_2113.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_113ma/palaeogeography_113ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2120/palaeogeography_2120.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_120ma/palaeogeography_120ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2133/palaeogeography_2133.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_133ma/palaeogeography_133ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2140/palaeogeography_2140.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_140ma/palaeogeography_140ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2154/palaeogeography_2154.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_154ma/palaeogeography_154ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2165/palaeogeography_2165.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_165ma/palaeogeography_165ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2180/palaeogeography_2180.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_180ma/palaeogeography_180ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2200/palaeogeography_2200.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_200ma/palaeogeography_200ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2210/palaeogeography_2210.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_210ma/palaeogeography_210ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2220/palaeogeography_2220.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_220ma/palaeogeography_220ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2230/palaeogeography_2230.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_230ma/palaeogeography_230ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2240/palaeogeography_2240.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_240ma/palaeogeography_240ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2250/palaeogeography_2250.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_250ma/palaeogeography_250ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2270/palaeogeography_2270.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_270ma/palaeogeography_270ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2290/palaeogeography_2290.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_290ma/palaeogeography_290ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2300/palaeogeography_2300.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_300ma/palaeogeography_300ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2315/palaeogeography_2315.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_315ma/palaeogeography_315ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2331/palaeogeography_2331.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_331ma/palaeogeography_331ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2350/palaeogeography_2350.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_350ma/palaeogeography_350ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2370/palaeogeography_2370.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_370ma/palaeogeography_370ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2383/palaeogeography_2383.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_383ma/palaeogeography_383ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2393/palaeogeography_2393.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_393ma/palaeogeography_393ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2408/palaeogeography_2408.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_408ma/palaeogeography_408ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2420/palaeogeography_2420.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_420ma/palaeogeography_420ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2444/palaeogeography_2444.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_444ma/palaeogeography_444ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2463/palaeogeography_2463.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_463ma/palaeogeography_463ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2475/palaeogeography_2475.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_475ma/palaeogeography_475ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2489/palaeogeography_2489.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_489ma/palaeogeography_489ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2500/palaeogeography_2500.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_500ma/palaeogeography_500ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2518/palaeogeography_2518.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_518ma/palaeogeography_518ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2535/palaeogeography_2535.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_535ma/palaeogeography_535ma.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_2545/palaeogeography_2545.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/palaeogeography_545ma/palaeogeography_545ma.json",
       "type": "application/geo+json"
     },
     {
@@ -245,9 +245,9 @@
       "bbox": [
         [
           -180.0,
-          -85.06,
+          -90.0,
           180.0,
-          85.06
+          90.0
         ]
       ]
     },

@@ -1,0 +1,122 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "flow_dir_165ma",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "geological:age_ma": 165,
+    "geological:age_years": 165000000,
+    "start_datetime": "2165-01-01T00:00:00Z",
+    "end_datetime": "2165-01-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/flow_dir/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/flow_dir/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "wms_54034": {
+      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas:flow_dir&styles=panalesis_atlas:flow_dir&bbox=-20037508.34,-6363885.33,20037508.34,6363885.33&width=4008&height=1273&srs=ESRI:54034&format=image/png&TIME=2165",
+      "type": "image/png",
+      "title": "Flow direction at 165 Ma (ESRI:54034)",
+      "proj:code": "ESRI:54034",
+      "proj:shape": [
+        1273,
+        4008
+      ],
+      "proj:bbox": [
+        -20037508.34,
+        -6363885.33,
+        20037508.34,
+        6363885.33
+      ],
+      "proj:transform": [
+        10000.0,
+        0.0,
+        -20037508.34,
+        0.0,
+        -10000.0,
+        6363885.33
+      ],
+      "roles": [
+        "data",
+        "visual"
+      ]
+    },
+    "wms_4326": {
+      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas_epsg_4326/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas_epsg_4326:flow_dir_4326&styles=panalesis_atlas_epsg_4326:flow_dir_4326&bbox=-180.0,-90.0,180.0,90.0&width=3600&height=1800&srs=EPSG:4326&format=image/png&TIME=2165",
+      "type": "image/png",
+      "title": "Flow direction at 165 Ma (EPSG:4326)",
+      "proj:code": "EPSG:4326",
+      "proj:shape": [
+        1800,
+        3600
+      ],
+      "proj:bbox": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+      ],
+      "proj:transform": [
+        0.1,
+        0.0,
+        -180.0,
+        0.0,
+        -0.1,
+        90.0
+      ],
+      "roles": [
+        "data",
+        "visual"
+      ]
+    }
+  },
+  "collection": "flow_dir"
+}
