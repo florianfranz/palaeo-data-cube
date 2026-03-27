@@ -90,7 +90,7 @@
       ]
     },
     "wms_4326": {
-      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas_epsg_4326/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas_epsg_4326:seafloor_ages_4326&styles=panalesis_atlas_epsg:seafloor_ages&bbox=-180.0,-90.0,180.0,90.0&width=3600&height=1800&srs=EPSG:4326&format=image/png&TIME=2518",
+      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas_epsg_4326/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas_epsg_4326:seafloor_ages_4326&styles=panalesis_atlas:seafloor_ages&bbox=-180.0,-90.0,180.0,90.0&width=3600&height=1800&srs=EPSG:4326&format=image/png&TIME=2518",
       "type": "image/png",
       "title": "Seafloor age at 518 Ma (EPSG:4326)",
       "proj:code": "EPSG:4326",
