@@ -90,7 +90,7 @@
       ]
     },
     "wms_4326": {
-      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas_epsg_4326/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas_epsg_4326:hydrothermal_penetration_4326&styles=panalesis_atlas:hydrothermal_penetration&bbox=-180.0,-90.0,180.0,90.0&width=3600&height=1800&srs=EPSG:4326&format=image/png&TIME=2180",
+      "href": "https://geoserver.panalesis.org/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas_epsg_4326:hydrothermal_penetration_4326&styles=panalesis_atlas:hydrothermal_penetration&bbox=-180.0,-90.0,180.0,90.0&width=3600&height=1800&srs=EPSG:4326&format=image/png&TIME=2180",
       "type": "image/png",
       "title": "Hydrothermal penetration at 180 Ma (EPSG:4326)",
       "proj:code": "EPSG:4326",
