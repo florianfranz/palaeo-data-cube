@@ -6,42 +6,42 @@
   "links": [
     {
       "rel": "root",
-      "href": "./catalog.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./palaeogeography/collection.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/palaeogeography/collection.json",
       "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./seafloor_ages/collection.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/seafloor_ages/collection.json",
       "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./crustal_thickness/collection.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/crustal_thickness/collection.json",
       "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./lithospheric_thickness/collection.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/lithospheric_thickness/collection.json",
       "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./hydrothermal_penetration/collection.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/hydrothermal_penetration/collection.json",
       "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./flow_dir/collection.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/flow_dir/collection.json",
       "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./flow_acc/collection.json",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/flow_acc/collection.json",
       "type": "application/json"
     }
   ]
