@@ -96,6 +96,24 @@ Metadata Catalog
 Every product is documented with standard metadata (ISO 19115). The catalog is supported by GeoNetwork and can be
 accessed `here <https://geonetwork.panalesis.org/geonetwork>`_.
 
+.. image:: images/geonetwork.png
+   :width: 100%
+   :scale: 100%
+   :align: center
+   :alt: Geonetwork
+
+
 A SpatioTemporal Assets Catalog (STAC) listing every item available for every product (one collection per product) is
 available in the `stac folder <https://github.com/florianfranz/palaeo-data-cube/tree/main/stac>`_.
+
+From this static catalog, a STAC browser has been established, which can be accessed at the following URL: https://palaeo-data-cube.github.io/stac-browser/
+
+Each layer is linked to a collection, in which each age is an item, for which we provide both resolutions as assets.
+
+.. image:: images/STAC_browser.png
+   :width: 100%
+   :scale: 100%
+   :align: center
+   :alt: STAC browser
+
 
