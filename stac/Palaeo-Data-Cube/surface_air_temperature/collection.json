@@ -1,0 +1,235 @@
+{
+  "type": "Collection",
+  "id": "surface_air_temperature",
+  "stac_version": "1.1.0",
+  "description": "Surface air temperature (°C) maps from PLASIM-GENIE with PANALESIS palaeogeography as boundary condition.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_0ma/surface_air_temperature_0ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_6ma/surface_air_temperature_6ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_11ma/surface_air_temperature_11ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_33ma/surface_air_temperature_33ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_40ma/surface_air_temperature_40ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_48ma/surface_air_temperature_48ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_56ma/surface_air_temperature_56ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_94ma/surface_air_temperature_94ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_100ma/surface_air_temperature_100ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_113ma/surface_air_temperature_113ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_120ma/surface_air_temperature_120ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_133ma/surface_air_temperature_133ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_154ma/surface_air_temperature_154ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_165ma/surface_air_temperature_165ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_180ma/surface_air_temperature_180ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_200ma/surface_air_temperature_200ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_220ma/surface_air_temperature_220ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_230ma/surface_air_temperature_230ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_240ma/surface_air_temperature_240ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_250ma/surface_air_temperature_250ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_270ma/surface_air_temperature_270ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_290ma/surface_air_temperature_290ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_300ma/surface_air_temperature_300ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_315ma/surface_air_temperature_315ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_331ma/surface_air_temperature_331ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_350ma/surface_air_temperature_350ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_383ma/surface_air_temperature_383ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_393ma/surface_air_temperature_393ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_408ma/surface_air_temperature_408ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_420ma/surface_air_temperature_420ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_444ma/surface_air_temperature_444ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_463ma/surface_air_temperature_463ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_475ma/surface_air_temperature_475ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_489ma/surface_air_temperature_489ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_500ma/surface_air_temperature_500ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_518ma/surface_air_temperature_518ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_535ma/surface_air_temperature_535ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/surface_air_temperature_545ma/surface_air_temperature_545ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "summaries": {
+    "geological:age_ma": {
+      "minimum": 0,
+      "maximum": 545
+    }
+  }
+}

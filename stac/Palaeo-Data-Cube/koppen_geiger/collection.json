@@ -1,0 +1,235 @@
+{
+  "type": "Collection",
+  "id": "koppen_geiger",
+  "stac_version": "1.1.0",
+  "description": "Köppen-Geiger climate zones (two letters classification) from precipitation and surface air temperature.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_0ma/koppen_geiger_0ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_6ma/koppen_geiger_6ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_11ma/koppen_geiger_11ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_33ma/koppen_geiger_33ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_40ma/koppen_geiger_40ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_48ma/koppen_geiger_48ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_56ma/koppen_geiger_56ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_94ma/koppen_geiger_94ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_100ma/koppen_geiger_100ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_113ma/koppen_geiger_113ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_120ma/koppen_geiger_120ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_133ma/koppen_geiger_133ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_154ma/koppen_geiger_154ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_165ma/koppen_geiger_165ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_180ma/koppen_geiger_180ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_200ma/koppen_geiger_200ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_220ma/koppen_geiger_220ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_230ma/koppen_geiger_230ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_240ma/koppen_geiger_240ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_250ma/koppen_geiger_250ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_270ma/koppen_geiger_270ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_290ma/koppen_geiger_290ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_300ma/koppen_geiger_300ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_315ma/koppen_geiger_315ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_331ma/koppen_geiger_331ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_350ma/koppen_geiger_350ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_383ma/koppen_geiger_383ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_393ma/koppen_geiger_393ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_408ma/koppen_geiger_408ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_420ma/koppen_geiger_420ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_444ma/koppen_geiger_444ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_463ma/koppen_geiger_463ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_475ma/koppen_geiger_475ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_489ma/koppen_geiger_489ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_500ma/koppen_geiger_500ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_518ma/koppen_geiger_518ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_535ma/koppen_geiger_535ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/koppen_geiger_545ma/koppen_geiger_545ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "summaries": {
+    "geological:age_ma": {
+      "minimum": 0,
+      "maximum": 545
+    }
+  }
+}

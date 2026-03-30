@@ -1,0 +1,122 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "koppen_geiger_56ma",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "geological:age_ma": 56,
+    "geological:age_years": 56000000,
+    "start_datetime": "2056-01-01T00:00:00Z",
+    "end_datetime": "2056-01-01T00:00:00Z",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "wms_54034": {
+      "href": "https://geoserver.panalesis.org/geoserver/panalesis_atlas/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas:koppen&styles=panalesis_atlas:KGCZ&bbox=-20037508.34,-6363885.33,20037508.34,6363885.33&width=4008&height=1273&srs=EPSG:54034&format=image/png&TIME=2056",
+      "type": "image/png",
+      "title": "Köppen-Geiger climate zone at 56 Ma (EPSG:54034)",
+      "proj:code": "EPSG:54034",
+      "proj:shape": [
+        1273,
+        4008
+      ],
+      "proj:bbox": [
+        -20037508.34,
+        -6363885.33,
+        20037508.34,
+        6363885.33
+      ],
+      "proj:transform": [
+        10000.0,
+        0.0,
+        -20037508.34,
+        0.0,
+        -10000.0,
+        6363885.33
+      ],
+      "roles": [
+        "data",
+        "visual"
+      ]
+    },
+    "wms_4326": {
+      "href": "https://geoserver.panalesis.org/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&layers=panalesis_atlas_epsg_4326:koppen_4326&styles=panalesis_atlas:KGCZ&bbox=-180.0,-90.0,180.0,90.0&width=3600&height=1800&srs=EPSG:4326&format=image/png&TIME=2056",
+      "type": "image/png",
+      "title": "Köppen-Geiger climate zone at 56 Ma (EPSG:4326)",
+      "proj:code": "EPSG:4326",
+      "proj:shape": [
+        1800,
+        3600
+      ],
+      "proj:bbox": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+      ],
+      "proj:transform": [
+        0.1,
+        0.0,
+        -180.0,
+        0.0,
+        -0.1,
+        90.0
+      ],
+      "roles": [
+        "data",
+        "visual"
+      ]
+    }
+  },
+  "collection": "koppen_geiger"
+}

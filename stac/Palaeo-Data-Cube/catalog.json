@@ -43,6 +43,21 @@
       "rel": "child",
       "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/flow_acc/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/koppen_geiger/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/surface_air_temperature/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/collection.json",
+      "type": "application/json"
     }
   ]
 }

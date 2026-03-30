@@ -1,0 +1,235 @@
+{
+  "type": "Collection",
+  "id": "precipitation",
+  "stac_version": "1.1.0",
+  "description": "Precipitation (mm/year) maps from PLASIM-GENIE with PANALESIS palaeogeography as boundary condition.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_0ma/precipitation_0ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_6ma/precipitation_6ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_11ma/precipitation_11ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_33ma/precipitation_33ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_40ma/precipitation_40ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_48ma/precipitation_48ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_56ma/precipitation_56ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_94ma/precipitation_94ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_100ma/precipitation_100ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_113ma/precipitation_113ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_120ma/precipitation_120ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_133ma/precipitation_133ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_154ma/precipitation_154ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_165ma/precipitation_165ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_180ma/precipitation_180ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_200ma/precipitation_200ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_220ma/precipitation_220ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_230ma/precipitation_230ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_240ma/precipitation_240ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_250ma/precipitation_250ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_270ma/precipitation_270ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_290ma/precipitation_290ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_300ma/precipitation_300ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_315ma/precipitation_315ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_331ma/precipitation_331ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_350ma/precipitation_350ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_383ma/precipitation_383ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_393ma/precipitation_393ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_408ma/precipitation_408ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_420ma/precipitation_420ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_444ma/precipitation_444ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_463ma/precipitation_463ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_475ma/precipitation_475ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_489ma/precipitation_489ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_500ma/precipitation_500ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_518ma/precipitation_518ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_535ma/precipitation_535ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/precipitation/precipitation_545ma/precipitation_545ma.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/florianfranz/palaeo-data-cube/main/stac/Palaeo-Data-Cube/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "summaries": {
+    "geological:age_ma": {
+      "minimum": 0,
+      "maximum": 545
+    }
+  }
+}
