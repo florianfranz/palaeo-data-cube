@@ -437,6 +437,7 @@ Applying the colormap associated with lithospheric thickness and plotting:
         "Lithospheric Thickness (km)")
 
 Will now render:
+
 .. image:: images/litho_140.png
    :width: 600px
    :alt: Lithospheric thickness map obtained with WCS at 140 Myr
