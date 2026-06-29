@@ -26,12 +26,12 @@ A new window should open. In the "Layers" tab, click on "New". This should open 
 
 
 Fill in the information: for the name, anything like "Palaeo Data Cube" is fine.
-Depending on the layers you want,The URL should be :
+Depending on the layers you want, the URL should be :
 
 - For equal area: https://geoserver.panalesis.org/geoserver/panalesis_atlas/wcs
 - For lat/lon: https://geoserver.panalesis.org/geoserver/panalesis_atlas_epsg_4326/wcs
 
-Click on "OK", and the on "Connect". All layers should be listed:
+Click on "OK", and then on "Connect". All layers should be listed:
 
 .. image:: images/QGIS_list_WCS.png
    :width: 100%
@@ -58,8 +58,6 @@ Apply the `palaeogeography` style by downloading it from the folder, then go to 
 the symbology window and on the bottom-left, click on ``Styles/Load Style`` and browse to select the file. Load it and
 click `OK`. The style should be applied and your map should look like this:
 
-
-
 .. image:: images/QGIS_250_Ma_colors.png
    :width: 100%
    :scale: 100%
@@ -84,29 +82,29 @@ geological ages (in millions of years, Ma) for a raster layer.
    import requests
    from xml.etree import ElementTree as ET
 
-    def get_available_ages(
-            layer_name,
-            base_url="https://geoserver.panalesis.org/geoserver/",
-            workspace="panalesis_atlas",
-            service_type="WCS",
-            service_version="1.0.0"
-    ):
-        describe_url = (
-            f"{base_url}{workspace}/{service_type.lower()}"
-            f"?service={service_type}&version={service_version}"
-            f"&request=DescribeCoverage&coverage={workspace}:{layer_name}"
-        )
-        response = requests.get(describe_url)
-        root = ET.fromstring(response.content)
+   def get_available_ages(
+           layer_name,
+           base_url="https://geoserver.panalesis.org/geoserver/",
+           workspace="panalesis_atlas",
+           service_type="WCS",
+           service_version="1.0.0"
+   ):
+       describe_url = (
+           f"{base_url}{workspace}/{service_type.lower()}"
+           f"?service={service_type}&version={service_version}"
+           f"&request=DescribeCoverage&coverage={workspace}:{layer_name}"
+       )
+       response = requests.get(describe_url)
+       root = ET.fromstring(response.content)
 
-        years = sorted(set(
-            int(el.text.split("-")[0])
-            for el in root.iter()
-            if el.tag.endswith('timePosition') and el.text
-        ))
-        geological_ages = [year - 2000 for year in years]
+       years = sorted(set(
+           int(el.text.split("-")[0])
+           for el in root.iter()
+           if el.tag.endswith('timePosition') and el.text
+       ))
+       geological_ages = [year - 2000 for year in years]
 
-        return years, geological_ages
+       return years, geological_ages
 
 The function can be called by providing a layer name:
 
@@ -159,22 +157,22 @@ The WCS request returns a GeoTIFF, which is read and visualized using
                       resy="10000",
                       format="GEOTIFF"):
 
-    time = f"{geological_age + 2000:04d}-01-01T00:00:00.000Z"
+       time = f"{geological_age + 2000:04d}-01-01T00:00:00.000Z"
 
-    url = (
-        rf"{base_url}{workspace}/{service_type.lower()}?"
-        rf"service={service_type}&"
-        rf"version={service_version}&"
-        rf"request={request_type}&"
-        rf"coverage={workspace}:{layer_name}&"
-        rf"crs={crs}&"
-        rf"bbox={bbox}&"
-        rf"resx={resx}&"
-        rf"resy={resy}&"
-        rf"time={time}&"
-        rf"format={format}"
-    )
-    return url
+       url = (
+           rf"{base_url}{workspace}/{service_type.lower()}?"
+           rf"service={service_type}&"
+           rf"version={service_version}&"
+           rf"request={request_type}&"
+           rf"coverage={workspace}:{layer_name}&"
+           rf"crs={crs}&"
+           rf"bbox={bbox}&"
+           rf"resx={resx}&"
+           rf"resy={resy}&"
+           rf"time={time}&"
+           rf"format={format}"
+       )
+       return url
 
 
 This function can be called simply:
@@ -183,7 +181,7 @@ This function can be called simply:
 
     geological_age = 250
     layer_name = "palaeogeography"
-    wcs_url = construct_wcs_url(layer_name,geological_age)
+    wcs_url = construct_wcs_url(layer_name, geological_age)
     print(wcs_url)
 
 
@@ -284,7 +282,7 @@ It is possible to access every product, every age and, if necessary, only a subs
 parameters in the WCS request function.
 
 **Subsetting by product**
-For instance, for seafloor ages, it is possible to check the available maps by calling the ````
+For instance, for seafloor ages, it is possible to check the available maps by calling the ``get_available_ages`` function:
 
 .. code-block:: python
 
@@ -293,7 +291,7 @@ For instance, for seafloor ages, it is possible to check the available maps by c
     print(f"Number of reconstructions: {len(geological_ages)}")
 
 
- that will return, as it did for the palaeogeography, the list of available time steps for this product:
+that will return, as it did for the palaeogeography, the list of available time steps for this product:
 
 .. code-block:: text
 
@@ -310,7 +308,7 @@ Now, plotting a map of seafloor ages for the Ordovician at 444 Ma:
 
     geological_age = 444
     layer_name = "seafloor_ages"
-    wcs_url = construct_wcs_url(layer_name,layer_name)
+    wcs_url = construct_wcs_url(layer_name, geological_age)
     print(wcs_url)
 
 
@@ -325,7 +323,7 @@ and a title:
     from matplotlib.colors import ListedColormap, BoundaryNorm
     from rasterio.io import MemoryFile
 
-    def plot_map(wcs_url,colormap,title):
+    def plot_map(wcs_url, colormap, title):
         data = requests.get(wcs_url).content
         with MemoryFile(data) as memfile:
             with memfile.open() as dataset:
@@ -386,26 +384,31 @@ In our case, this can be done for the seafloor ages we defined above. We just ne
 
 .. code-block:: python
 
+    seafloor_ages_url = construct_wcs_url("seafloor_ages", 444)
     raster = plot_map(
         seafloor_ages_url,
         sf_colormap_entries,
         "Seafloor Age (Myr)"
     )
+
 Which should return the following map:
+
 .. image:: images/sf_444.png
    :width: 600px
    :alt: Seafloor ages map obtained with WCS at 444 Myr
    :align: center
 
+
 **Subset by extent**
-Subsetting by extent can also be done by changing the ``bbox`` parameter function:
+Subsetting by extent can also be done by changing the ``bbox`` parameter in the function:
 
 .. code-block:: python
 
     litho_subset = construct_wcs_url("lithospheric_thickness",
-                                 140,
-                                 bbox = "-12000000,-6300000,5000000,1000000"
-                                 )
+                                     140,
+                                     bbox="-12000000,-6300000,5000000,1000000"
+                                     )
+
 **NB:** Units of the bbox follow the crs units, by default in meters.
 
 This will call the lithospheric thickness layer, for the 140 Ma reconstruction over the defined bbox.
@@ -413,6 +416,7 @@ This will call the lithospheric thickness layer, for the 140 Ma reconstruction o
 Applying the colormap associated with lithospheric thickness and plotting:
 
 .. code-block:: python
+
     lt_colormap_entries = [
         (0, "#d30000", "0"),
         (30, "#ff2b00", "30"),
@@ -431,6 +435,7 @@ Applying the colormap associated with lithospheric thickness and plotting:
         litho_subset,
         lt_colormap_entries,
         "Lithospheric Thickness (km)")
+
 Will now render:
 .. image:: images/litho_140.png
    :width: 600px
@@ -441,13 +446,13 @@ Will now render:
 The available layers are natively available in 10x10km resolution, and will be rendered with this resolution by default.
 If you however wish to get a lower resolution, just modify the ``resx`` and ``resy`` parameters in the URL constructor:
 
-.. code-block::python
-    low_res = "500000"
+.. code-block:: python
 
+    low_res = "500000"
 
     litho_subset_low_res = construct_wcs_url("lithospheric_thickness",
                                      140,
-                                     bbox = "-12000000,-6300000,5000000,1000000",
+                                     bbox="-12000000,-6300000,5000000,1000000",
                                      resx=low_res,
                                      resy=low_res
                                      )
@@ -456,11 +461,14 @@ If you however wish to get a lower resolution, just modify the ``resx`` and ``re
         litho_subset_low_res,
         lt_colormap_entries,
         "Lithospheric Thickness (km)")
+
 Will now render:
+
 .. image:: images/litho_140_low_res.png
    :width: 600px
    :alt: Lithospheric thickness map obtained with WCS at 140 Myr
    :align: center
+
 The resampling is done on the server side. By default, GeoServer will use the nearest neighbour method, taking the closest
 value to the new resolution pixels centroid. We therefore recommend using the native resolution.
 
@@ -481,6 +489,3 @@ deep-time:
 1. Reconstructing Earth’s Past – From a Snapshot to Deep Time
 2. How Fast Was Earth’s Engine Running?
 3. Palaeogeography Meets Palaeoclimatology
-
-
-
