@@ -183,7 +183,7 @@ This function can be called simply:
 
     geological_age = 250
     layer_name = "palaeogeography"
-    wcs_url = construct_wcs_url(layer_name,layer_name)
+    wcs_url = construct_wcs_url(layer_name,geological_age)
     print(wcs_url)
 
 
@@ -277,6 +277,195 @@ You can now use this URL to load the data using  ``requests`` and ``rasterio``, 
 - The spatial extent and output resolution are fixed for simplicity
 
 
+Filter by dimensions
+^^^^^^^^^^^^^^^^^^^^
+
+It is possible to access every product, every age and, if necessary, only a subset of the spatial extent by changing the
+parameters in the WCS request function.
+
+**Subsetting by product**
+For instance, for seafloor ages, it is possible to check the available maps by calling the ````
+
+.. code-block:: python
+
+    years, geological_ages = get_available_ages("seafloor_ages")
+    print(geological_ages)
+    print(f"Number of reconstructions: {len(geological_ages)}")
+
+
+ that will return, as it did for the palaeogeography, the list of available time steps for this product:
+
+.. code-block:: text
+
+   [0, 6, 11, 15, 20, 33, 40, 48, 56, 68, 84, 94, 100, 113, 120, 133, 140,
+    154, 165, 180, 200, 210, 220, 230, 240, 250, 270, 290, 300, 315, 331,
+    350, 370, 383, 393, 408, 420, 444, 463, 475, 489, 500, 518, 535, 545]
+
+
+   Number of reconstructions: 45
+
+Now, plotting a map of seafloor ages for the Ordovician at 444 Ma:
+
+.. code-block:: python
+
+    geological_age = 444
+    layer_name = "seafloor_ages"
+    wcs_url = construct_wcs_url(layer_name,layer_name)
+    print(wcs_url)
+
+
+In order to simplify the plotting process, we can define a function to plot maps that requires the WCS URL, the colormap
+and a title:
+
+.. code-block:: python
+
+    import requests
+    import numpy as np
+    import matplotlib.pyplot as plt
+    from matplotlib.colors import ListedColormap, BoundaryNorm
+    from rasterio.io import MemoryFile
+
+    def plot_map(wcs_url,colormap,title):
+        data = requests.get(wcs_url).content
+        with MemoryFile(data) as memfile:
+            with memfile.open() as dataset:
+                raster = dataset.read(1).astype(float)
+                nodata = dataset.nodata
+                if nodata is not None:
+                    raster = np.ma.masked_equal(raster, nodata)
+                else:
+                    raster = np.ma.masked_invalid(raster)
+                bounds = [entry[0] for entry in colormap]
+                colors = [entry[1] for entry in colormap[:-1]]
+                cmap = ListedColormap(colors)
+                norm = BoundaryNorm(
+                    bounds,
+                    ncolors=len(colors)
+                )
+                cmap.set_bad(color='white')
+                bounds = dataset.bounds
+                extent = [
+                    bounds.left,
+                    bounds.right,
+                    bounds.bottom,
+                    bounds.top
+                ]
+
+                fig, ax = plt.subplots()
+                img = ax.imshow(
+                    raster,
+                    cmap=cmap,
+                    norm=norm,
+                    extent=extent,
+                    origin="upper")
+                cbar = plt.colorbar(img, ax=ax)
+                cbar.set_label(title)
+                ax.set_xlabel("Easting (m)")
+                ax.set_ylabel("Northing (m)")
+                plt.show()
+                return raster
+
+In our case, this can be done for the seafloor ages we defined above. We just need to add a colormap:
+
+.. code-block:: python
+
+    sf_colormap_entries = [
+        (0, "#30123b", "0"),
+        (30, "#4040a2", "30"),
+        (60, "#4680f6", "60"),
+        (90, "#25c0e7", "90"),
+        (120, "#1ad2d2", "120"),
+        (150, "#96fe44", "150"),
+        (180, "#e9d539", "180"),
+        (210, "#fe9029", "210"),
+        (240, "#e2430a", "240"),
+        (270, "#c52603", "270")
+    ]
+
+**NB**: Colormaps are available (.qml files for QGIS, and as lists for Python) here: https://github.com/florianfranz/palaeo-data-cube/tree/main/files/styles
+
+.. code-block:: python
+
+    raster = plot_map(
+        seafloor_ages_url,
+        sf_colormap_entries,
+        "Seafloor Age (Myr)"
+    )
+Which should return the following map:
+.. image:: images/sf_444.png
+   :width: 600px
+   :alt: Seafloor ages map obtained with WCS at 444 Myr
+   :align: center
+
+**Subset by extent**
+Subsetting by extent can also be done by changing the ``bbox`` parameter function:
+
+.. code-block:: python
+
+    litho_subset = construct_wcs_url("lithospheric_thickness",
+                                 140,
+                                 bbox = "-12000000,-6300000,5000000,1000000"
+                                 )
+**NB:** Units of the bbox follow the crs units, by default in meters.
+
+This will call the lithospheric thickness layer, for the 140 Ma reconstruction over the defined bbox.
+
+Applying the colormap associated with lithospheric thickness and plotting:
+
+.. code-block:: python
+    lt_colormap_entries = [
+        (0, "#d30000", "0"),
+        (30, "#ff2b00", "30"),
+        (60, "#ff8000", "60"),
+        (90, "#edc542", "90"),
+        (120, "#fff01c", "120"),
+        (150, "#acff37", "150"),
+        (180, "#3cfd65", "180"),
+        (210, "#18a5a7", "210"),
+        (240, "#1e00ff", "240"),
+        (270, "#1500b6", "270"),
+        (300, "#1500b6", "300"),
+    ]
+
+    raster_litho_corner = plot_map(
+        litho_subset,
+        lt_colormap_entries,
+        "Lithospheric Thickness (km)")
+Will now render:
+.. image:: images/litho_140.png
+   :width: 600px
+   :alt: Lithospheric thickness map obtained with WCS at 140 Myr
+   :align: center
+
+**Change Resolution**
+The available layers are natively available in 10x10km resolution, and will be rendered with this resolution by default.
+If you however wish to get a lower resolution, just modify the ``resx`` and ``resy`` parameters in the URL constructor:
+
+.. code-block::python
+    low_res = "500000"
+
+
+    litho_subset_low_res = construct_wcs_url("lithospheric_thickness",
+                                     140,
+                                     bbox = "-12000000,-6300000,5000000,1000000",
+                                     resx=low_res,
+                                     resy=low_res
+                                     )
+
+    raster_litho_corner_low_res = plot_map(
+        litho_subset_low_res,
+        lt_colormap_entries,
+        "Lithospheric Thickness (km)")
+Will now render:
+.. image:: images/litho_140_low_res.png
+   :width: 600px
+   :alt: Lithospheric thickness map obtained with WCS at 140 Myr
+   :align: center
+The resampling is done on the server side. By default, GeoServer will use the nearest neighbour method, taking the closest
+value to the new resolution pixels centroid. We therefore recommend using the native resolution.
+
+
+
 Further Usage
 -------------------
 
@@ -285,7 +474,7 @@ provide step-by-step instructions on how to use some specific layers of the Pala
 full course that uses the Palaeo Data Cube at https://unige-cgeom.github.io/SPACE-GEOLOGY/. This open course provides an
 exercise in three parts on how to access, process, combine, visualize and export layers using Jupyter Notebooks.
 
-The exercise is part of the SPACE-GEOLOGY (SPACE stands for Spatial Predictions and Analysesin Complex Environments) -
+The exercise is part of the SPACE-GEOLOGY (SPACE stands for Spatial Predictions and Analyses in Complex Environments) -
 Methods for multiscale Earth science modelling, in which we apply GIS tools to analyze the evolution of the Earth in
 deep-time:
 

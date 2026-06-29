@@ -16,7 +16,8 @@ Earth over the Phanerozoic (last 545 million years in 45 steps), derived from th
    :alt: Phanerozoic timeline with available maps (arrows)
    :align: center
 
-Layers are available for:
+Available products:
+--------------------
 
 1. Palaeogeography: Topographic maps with sea-level corrections, calculated based on the global oceanic basin size (assuming constant oceanic volume through time). Our reconstructions do not have flat seafloor.
 2. Crustal thickness
