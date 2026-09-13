@@ -105,6 +105,12 @@ Every product is documented with standard metadata (ISO 19115). The catalog is s
 A SpatioTemporal Assets Catalog (STAC) listing every item available for every product (one collection per product) is available [in the stac folder](./stac)
 ## References
 
+To cite the Palaeo Data Cube, please use the following reference:
+
+
+Franziskakis, F., Vérard, C., Richard, J. P., Castelltort, S., & Giuliani, G. (2026). The Palæo Data Cube: A Digital Earth of the past inspired by present-day Big Earth Observations Data practices. Big Earth Data, 1–19. https://doi.org/10.1080/20964471.2026.2723636
+
+
 **PANALESIS Plate Tectonic Model**:
 
 * Vérard, C., Hochard, C., Baumgartner, P. O., Stampfli, G. M., & Liu, M. (2015). 3D palaeogeographic reconstructions of the Phanerozoic versus sea-level and Sr-ratio variations. Journal of Palaeogeography, 4(1), Article 1. https://doi.org/10.3724/SP.J.1261.2015.00068
